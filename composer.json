@@ -1,0 +1,23 @@
+{
+    "name": "asus/day7",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "helpers/function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Longav",
+            "email": "Long1999tb@gmail.com"
+        }
+    ],
+    "require": {
+       
+        "eftec/bladeone": "^4.13",
+        "phroute/phroute": "^2.2"
+    }
+}
